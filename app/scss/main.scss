@@ -66,6 +66,9 @@ body {
 	background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;
+	@media (max-width: 768px) {
+		background-attachment: initial;
+	}
 	position: relative;
 	display: flex;
 	align-items: center;
@@ -120,6 +123,9 @@ h2 {
 	background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;
+	@media (max-width: 768px) {
+		background-attachment: initial;
+	}
 	color: #fff;
 	padding-bottom: 30px;
 	min-height: 60vh;
@@ -218,6 +224,9 @@ h2 {
 	background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;
+	@media (max-width: 768px) {
+		background-attachment: initial;
+	}
 	color: #000;
 	padding-bottom: 30px;
 	min-height: 60vh;
@@ -242,6 +251,9 @@ h2 {
 	background-size: cover;
 	background-position: top center;
 	background-attachment: fixed;
+	@media (max-width: 768px) {
+		background-attachment: initial;
+	}
 	color: #fff;
 	padding-bottom: 30px;
 	min-height: 50vh;
